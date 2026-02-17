@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Run Tiny Tapeout Precheck
-        uses: htfab/tt-gds-action/precheck@main
+        uses: htfab/tt-gds-action/precheck@pinned-pdk
         with:
           pdk: ihp
           tools-repo: htfab/tt-support-tools
